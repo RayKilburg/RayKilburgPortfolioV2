@@ -32,7 +32,11 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           {/* <img src={'https://i.imgur.com/4Iu4CA4.png'} alt="" /> */}
           <span className="image main">
-            <img src={'https://i.imgur.com/4Iu4CA4.png'} alt="" />
+            <img
+              className="logo"
+              src={'https://i.imgur.com/4Iu4CA4.png'}
+              alt=""
+            />
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
