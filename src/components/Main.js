@@ -15,7 +15,7 @@ class Main extends React.Component {
         }}
       />
     )
-
+    // INTRO
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -60,7 +60,36 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
+        {/*WORK */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Work</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+            Project Name Adipiscing magna sed dolor elit. Praesent eleifend
+            dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
+            volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia
+            quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+          </p>
+          <p>
+            Link to live site Link to github repo Nullam et orci eu lorem
+            consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna
+            magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In
+            efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
+            pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
+            tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna
+            sed nunc rhoncus amet feugiat tempus.
+          </p>
+          {close}
+        </article>
+        <br />
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -89,7 +118,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
+        {/*ABOUT */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -112,7 +141,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
+        {/*CONTACT */}
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
