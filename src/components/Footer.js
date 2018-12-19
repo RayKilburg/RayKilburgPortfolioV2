@@ -10,10 +10,11 @@ const Footer = props => (
     </p> */}
     <ul className="icons">
       <li>
-        <a href="#" className="icon fa-twitter">
-          <span className="label">Twitter</span>
+        <a href="https://github.com/RayKilburg" className="icon fa-github">
+          <span className="label">GitHub</span>
         </a>
       </li>
+
       <li>
         <a
           href="https://www.linkedin.com/in/ray-kilburg-606894118/"
@@ -22,14 +23,14 @@ const Footer = props => (
           <span className="label">Facebook</span>
         </a>
       </li>
+      {/* <li>
+              <a href="#" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li> */}
       <li>
-        <a href="#" className="icon fa-instagram">
-          <span className="label">Instagram</span>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/RayKilburg" className="icon fa-github">
-          <span className="label">GitHub</span>
+        <a href="https://twitter.com/raykilburg" className="icon fa-twitter">
+          <span className="label">Twitter</span>
         </a>
       </li>
     </ul>
