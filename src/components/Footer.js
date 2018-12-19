@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
-    <p className="copyright">
+    {/* <p className="copyright">
       &copy; Gatsby Starter - Dimension. Design:{' '}
       <a href="https://html5up.net">HTML5 UP</a>. Built with:{' '}
       <a href="https://www.gatsbyjs.org/">Gatsby.js</a>
-    </p>
+    </p> */}
     <ul className="icons">
       <li>
         <a href="#" className="icon fa-twitter">
@@ -15,7 +15,10 @@ const Footer = props => (
         </a>
       </li>
       <li>
-        <a href="#" className="icon fa-facebook">
+        <a
+          href="https://www.linkedin.com/in/ray-kilburg-606894118/"
+          className="icon fa-linkedin"
+        >
           <span className="label">Facebook</span>
         </a>
       </li>
@@ -25,7 +28,7 @@ const Footer = props => (
         </a>
       </li>
       <li>
-        <a href="#" className="icon fa-github">
+        <a href="https://github.com/RayKilburg" className="icon fa-github">
           <span className="label">GitHub</span>
         </a>
       </li>

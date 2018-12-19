@@ -79,7 +79,7 @@ class Main extends React.Component {
             quam. Integer sollicitudin mauris nec lorem luctus ultrices.
           </p>
           <p>
-            Link to live site Link to github repo Nullam et orci eu lorem
+            Link to live site, Link to github repo Nullam et orci eu lorem
             consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna
             magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In
             efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
@@ -179,7 +179,7 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-facebook">
+              <a href="#" className="icon fa-linkedin">
                 <span className="label">Facebook</span>
               </a>
             </li>
@@ -189,7 +189,10 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-github">
+              <a
+                href="https://github.com/RayKilburg"
+                className="icon fa-github"
+              >
                 <span className="label">GitHub</span>
               </a>
             </li>
