@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import './compCSS/main.css'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+// import GiphyApp from '../images/giphyapp.JPG'
 
 class Main extends React.Component {
   render() {
@@ -68,11 +70,13 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Flicks Picks</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img id="workImg" src={'https://i.imgur.com/LJFdwum.jpg'} alt="" />
           </span>
           <p>
+            <b>Flicks Picks</b>
+            <br />
             Project Name Adipiscing magna sed dolor elit. Praesent eleifend
             dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
             volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia
@@ -97,9 +101,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Giphy App</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={'https://i.imgur.com/LMc1g1Q.jpg'} alt="" />
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
