@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import './compCSS/main.css'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+// import pic01 from '../images/pic01.jpg'
+// import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 // import GiphyApp from '../images/giphyapp.JPG'
 
@@ -63,6 +63,7 @@ class Main extends React.Component {
           {close}
         </article>
         {/*WORK */}
+        {/* FLICKS PICKS */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -76,21 +77,15 @@ class Main extends React.Component {
           </span>
           <p>
             <b>Flicks Picks</b>
-            <br />
-            Project Name Adipiscing magna sed dolor elit. Praesent eleifend
-            dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
-            volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia
-            quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+            <br />A tool for spontaneous moviegoers. This website recommendeds a
+            movie near you.
           </p>
-          <p>
-            Link to live site, Link to github repo Nullam et orci eu lorem
-            consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna
-            magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In
-            efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-            pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
-            tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna
-            sed nunc rhoncus amet feugiat tempus.
-          </p>
+          <a href="https://flicks-picks.herokuapp.com/">Flicks-picks.com </a>
+          <br />
+          <a href="https://github.com/alexjharrison/Project-Two/commits/master">
+            Github Repo
+          </a>
+
           {close}
         </article>
         <br />
