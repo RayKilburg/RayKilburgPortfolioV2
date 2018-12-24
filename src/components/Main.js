@@ -41,11 +41,12 @@ class Main extends React.Component {
             />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Full Stack web developer with a passion in front end UI/UX design.
+            Capable of building sophisticated websites and applications with
+            full database back end all the way from mock up to roll out. Most
+            recently I been working on building Twitch extensions and working
+            with server-less back end technology.{' '}
+            <a href="https://github.com/RayKilburg">GitHub</a>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
