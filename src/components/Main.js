@@ -70,9 +70,7 @@ class Main extends React.Component {
           </p>
           <a href="https://flicks-picks.herokuapp.com/">Flicks-picks.com </a>
           <br />
-          <a href="https://github.com/alexjharrison/Project-Two/commits/master">
-            Github Repo
-          </a>
+          <a href="https://github.com/alexjharrison/Project-Two">Github Repo</a>
 
           {close}
         </article>
@@ -89,11 +87,13 @@ class Main extends React.Component {
             <img src={'https://i.imgur.com/LMc1g1Q.jpg'} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is an app I built using the Gigpy API. This app is desinged to
+            find gifs from your favorite TV Shows & Movies. Click on the gifs to
+            activate and puase them.
           </p>
+          <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
+          <br />
+          <a href="https://github.com/RayKilburg/GiphyAPI">Github Repo</a>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
