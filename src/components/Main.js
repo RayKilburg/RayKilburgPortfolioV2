@@ -75,6 +75,7 @@ class Main extends React.Component {
           {close}
         </article>
         <br />
+        {/* GIPHY APP */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -94,15 +95,31 @@ class Main extends React.Component {
           <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
           <br />
           <a href="https://github.com/RayKilburg/GiphyAPI">Github Repo</a>
+
+          {close}
+        </article>
+        <br />
+        {/* GIPHY APP */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Giphy App</h2>
+          <span className="image main">
+            <img src={'https://i.imgur.com/LMc1g1Q.jpg'} alt="" />
+          </span>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            This is an app I built using the Gigpy API. This app is desinged to
+            find gifs from your favorite TV Shows & Movies. Click on the gifs to
+            activate and puase them.
           </p>
+          <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
+          <br />
+          <a href="https://github.com/RayKilburg/GiphyAPI">Github Repo</a>
+
           {close}
         </article>
         {/*ABOUT */}
