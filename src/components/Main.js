@@ -99,7 +99,7 @@ class Main extends React.Component {
           {close}
         </article>
         <br />
-        {/* GIPHY APP */}
+        {/* RGB GAME */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -107,18 +107,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Giphy App</h2>
+          <h2 className="major">RGB Game</h2>
           <span className="image main">
-            <img src={'https://i.imgur.com/LMc1g1Q.jpg'} alt="" />
+            <img src={'https://i.imgur.com/gBGMvSg.jpg'} alt="" />
           </span>
-          <p>
-            This is an app I built using the Gigpy API. This app is desinged to
-            find gifs from your favorite TV Shows & Movies. Click on the gifs to
-            activate and puase them.
-          </p>
-          <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
+          <p>A simple guessing game with a little bit of style.</p>
+          <a href="https://raykilburg.github.io/RGB-Game/">RGB Game </a>
           <br />
-          <a href="https://github.com/RayKilburg/GiphyAPI">Github Repo</a>
+          <a href="https://github.com/RayKilburg/RGB-Game">Github Repo</a>
 
           {close}
         </article>
