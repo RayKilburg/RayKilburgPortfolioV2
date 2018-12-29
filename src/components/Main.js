@@ -118,6 +118,30 @@ class Main extends React.Component {
 
           {close}
         </article>
+        <br />
+        {/* BURGER */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Burger App</h2>
+          <span className="image main">
+            <img src={'https://i.imgur.com/gBGMvSg.jpg'} alt="" />
+          </span>
+          <p>
+            Add a burger that your would like to eat, click the button and
+            enjoy. This App's backend was built using MySQL as a DB and also
+            uses Handlebars as a front-end javascript framework.
+          </p>
+          <a href="https://raykilburg.github.io/RGB-Game/">RGB Game </a>
+          <br />
+          <a href="https://github.com/RayKilburg/RGB-Game">Github Repo</a>
+
+          {close}
+        </article>
         {/*ABOUT */}
         <article
           id="about"
