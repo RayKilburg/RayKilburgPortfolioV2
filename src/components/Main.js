@@ -136,7 +136,7 @@ class Main extends React.Component {
             enjoy. This App's backend was built using MySQL as a DB and also
             uses Handlebars as a front-end javascript framework.
           </p>
-          <a href="https://raykilburg.github.io/RGB-Game/">RGB Game </a>
+          <a href="https://raykilburg.github.io/RGB-Game/">Burger App </a>
           <br />
           <a href="https://github.com/RayKilburg/RGB-Game">Github Repo</a>
 
