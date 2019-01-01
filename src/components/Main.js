@@ -133,9 +133,8 @@ class Main extends React.Component {
           </span>
           <p>
             Add a burger that your would like to eat, click the button and
-            enjoy. This App's backend was built using MySQL as a DB and also
-            uses Handlebars as a front-end javascript framework. Deployed on
-            Heroku.
+            enjoy. This Apps backend was built using MySQL as a DB and also uses
+            Handlebars as a front-end javascript framework. Deployed on Heroku.
           </p>
           <a href="https://burgerrk.herokuapp.com/">Burger App </a>
           <br />
