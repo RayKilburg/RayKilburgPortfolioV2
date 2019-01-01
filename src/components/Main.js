@@ -129,7 +129,32 @@ class Main extends React.Component {
         >
           <h2 className="major">Burger App</h2>
           <span className="image main">
-            <img src={'https://i.imgur.com/gBGMvSg.jpg'} alt="" />
+            <img src={'https://i.imgur.com/YS25nRv.jpg'} alt="" />
+          </span>
+          <p>
+            Add a burger that your would like to eat, click the button and
+            enjoy. This App's backend was built using MySQL as a DB and also
+            uses Handlebars as a front-end javascript framework. Deployed on
+            Heroku.
+          </p>
+          <a href="https://burgerrk.herokuapp.com/">Burger App </a>
+          <br />
+          <a href="https://github.com/RayKilburg/Burger">Github Repo</a>
+
+          {close}
+        </article>
+        <br />
+        {/* RK PHOTOGRAPHY */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Burger App</h2>
+          <span className="image main">
+            <img src={'https://i.imgur.com/YS25nRv.jpg'} alt="" />
           </span>
           <p>
             Add a burger that your would like to eat, click the button and
