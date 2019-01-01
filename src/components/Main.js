@@ -31,7 +31,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Me</h2>
           {/* <img src={'https://i.imgur.com/4Iu4CA4.png'} alt="" /> */}
           <span className="image main">
             <img
@@ -172,7 +172,7 @@ class Main extends React.Component {
 
           {close}
         </article>
-        {/*ABOUT */}
+        {/* SKILLS */}
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -180,18 +180,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Events</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            <h3>Cal hacks 3.0</h3>
+            <h3>Rutgers Coding Boot Camp</h3>
+            <h3>Twitch Con & Hackathon</h3>
           </p>
           {close}
         </article>
