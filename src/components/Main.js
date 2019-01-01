@@ -90,7 +90,7 @@ class Main extends React.Component {
           <p>
             This is an app I built using the Gigpy API. This app is desinged to
             find gifs from your favorite TV Shows & Movies. Click on the gifs to
-            activate and puase them.
+            activate and puase them. Hosted on Github Pages.
           </p>
           <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
           <br />
@@ -111,7 +111,10 @@ class Main extends React.Component {
           <span className="image main">
             <img src={'https://i.imgur.com/gBGMvSg.jpg'} alt="" />
           </span>
-          <p>A simple guessing game with a little bit of style.</p>
+          <p>
+            A simple guessing game with a little bit of style. Hosted with
+            Github Pages.
+          </p>
           <a href="https://raykilburg.github.io/RGB-Game/">RGB Game </a>
           <br />
           <a href="https://github.com/RayKilburg/RGB-Game">Github Repo</a>
