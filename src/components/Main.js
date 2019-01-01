@@ -152,19 +152,21 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Burger App</h2>
+          <h2 className="major">My Photography Portfolio</h2>
           <span className="image main">
-            <img src={'https://i.imgur.com/YS25nRv.jpg'} alt="" />
+            <img src={'https://i.imgur.com/vSNa4k0.png'} alt="" />
           </span>
           <p>
-            Add a burger that your would like to eat, click the button and
-            enjoy. This App's backend was built using MySQL as a DB and also
-            uses Handlebars as a front-end javascript framework. Deployed on
-            Heroku.
+            This is a my personal photography portfolio. It is currently
+            deployed on Netlify. Future plans are to rebuild using GatsbyJs.
           </p>
-          <a href="https://burgerrk.herokuapp.com/">Burger App </a>
+          <a href="https://priceless-roentgen-92daeb.netlify.com">
+            Photography Portfolio
+          </a>
           <br />
-          <a href="https://github.com/RayKilburg/Burger">Github Repo</a>
+          <a href="https://github.com/RayKilburg/RayKilburgPhotography">
+            Github Repo
+          </a>
 
           {close}
         </article>
