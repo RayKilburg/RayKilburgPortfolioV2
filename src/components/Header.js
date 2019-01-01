@@ -14,7 +14,7 @@ const Header = props => (
           I am a Full Stack Developer and recently graduated from Rutgers Coding
           Boot Camp. Proficient in JavaScript, NodeJS, React, JQuery, CSS, HTML
           and have experince in C++ and Java. I have also attended Cal Hacks and
-          Twitch's Developer Day.
+          Twitchs Developer Day.
         </p>
       </div>
     </div>
