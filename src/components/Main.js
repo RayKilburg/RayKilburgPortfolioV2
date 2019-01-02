@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import './compCSS/main.css'
 // import pic01 from '../images/pic01.jpg'
-// import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic02 from '../images/RKLOGOABOUTME.png'
+import pic03 from '../images/skills.png'
 // import GiphyApp from '../images/giphyapp.JPG'
 
 class Main extends React.Component {
@@ -32,20 +32,15 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          {/* <img src={'https://i.imgur.com/4Iu4CA4.png'} alt="" /> */}
           <span className="image main">
-            <img
-              className="logo"
-              src={'https://i.imgur.com/4Iu4CA4.png'}
-              alt=""
-            />
+            <img className="logo" src={pic02} alt="" />
           </span>
           <p>
             Full Stack web developer with a passion in front end UI/UX design.
             Capable of building sophisticated websites and applications with
             full database back end all the way from mock up to roll out. Most
-            recently I been working on building Twitch extensions and working
-            with server-less back end technology. <br />
+            recently I have been working on building Twitch extensions and
+            working with server-less back end technology. <br />
             <a href="https://github.com/RayKilburg">GitHub</a>.
           </p>
           {close}
@@ -187,7 +182,7 @@ class Main extends React.Component {
           <p>
             <h3>Cal hacks 3.0</h3>
             <h3>Rutgers Coding Boot Camp</h3>
-            <h3>Twitch Con & Hackathon</h3>
+            <h3>Twitch Con Developer Day & Hackathon</h3>
           </p>
           {close}
         </article>
