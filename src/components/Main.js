@@ -61,7 +61,7 @@ class Main extends React.Component {
           <p>
             <b>Flicks Picks</b>
             <br />A tool for spontaneous moviegoers. This website recommendeds a
-            movie near you. It is currently being hosted on Heroku.
+            movie near you. It is currently beeing hosted on Heroku.
           </p>
           <a href="https://flicks-picks.herokuapp.com/">Flicks-picks.com </a>
           <br />
