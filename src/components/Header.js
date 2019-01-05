@@ -47,7 +47,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            <b>Skills</b>
+            <b>Events</b>
           </a>
         </li>
         <li>
