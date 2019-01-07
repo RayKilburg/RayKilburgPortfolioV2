@@ -11,10 +11,9 @@ const Header = props => (
       <div className="inner">
         <h1>Ray Kilburg</h1>
         <p>
-          Full Stack Developer and recently graduated from Rutgers Coding Boot
-          Camp. Proficient in JavaScript, NodeJS, React, JQuery, CSS, HTML and
-          have experince in C++ and Java. I have also attended Cal Hacks and
-          Twitchs Developer Day.
+          Web Developer with knowledge of Full Stack Development and passion for
+          UI/UX design. Lately I have been working on Twitch extensions and
+          started using GatsbyJs to build clean and fast websites.
         </p>
       </div>
     </div>
