@@ -13,7 +13,7 @@ const Header = props => (
         <p>
           Web Developer with knowledge of Full Stack Development and passion for
           UI/UX design. Lately I have been working on Twitch extensions and
-          started using GatsbyJs to build clean and fast websites.
+          recently started using GatsbyJs to build clean and fast websites.
         </p>
       </div>
     </div>
