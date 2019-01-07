@@ -180,9 +180,19 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            <h3>Cal hacks 3.0</h3>
-            <h3>Rutgers Coding Boot Camp</h3>
-            <h3>Twitch Con Developer Day & Hackathon</h3>
+            <h3>
+              Cal hacks 3.0 <h5>(2016)</h5>
+            </h3>
+
+            <h3>
+              Rutgers Coding Boot Camp
+              <h5>(2018)</h5>
+            </h3>
+
+            <h3>
+              Twitch Con Developer Day & Hackathon
+              <h5>(2018)</h5>
+            </h3>
           </p>
           {close}
         </article>
