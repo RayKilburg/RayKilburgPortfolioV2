@@ -259,6 +259,7 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          <h4>rkilburg42@gmail.com</h4>
           {close}
         </article>
       </div>
