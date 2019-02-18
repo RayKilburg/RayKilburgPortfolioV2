@@ -54,6 +54,30 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+          <h2 className="major">CS:GO TV</h2>
+          <span className="image main">
+            <img id="workImg" src={'https://i.imgur.com/s3jpWoo.png'} alt="" />
+          </span>
+          <p>
+            <b>CS:GO TV</b>
+            <br />
+            All of the biggest Counter Strike tournaments in one place.
+          </p>
+          <a href="https://csgotv.netlify.com/">csgotv.com </a>
+          <br />
+          {/* <a href="https://github.com/RayKilburg/CSGOTV">Github Repo</a> */}
+
+          {close}
+        </article>
+        <br />
+        {/* FLICKS PICKS */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
           <h2 className="major">Flicks Picks</h2>
           <span className="image main">
             <img id="workImg" src={'https://i.imgur.com/LJFdwum.jpg'} alt="" />
