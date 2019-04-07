@@ -46,7 +46,7 @@ class Main extends React.Component {
           {close}
         </article>
         {/*WORK */}
-        {/* FLICKS PICKS */}
+        {/* CSGO:TV */}
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -62,6 +62,9 @@ class Main extends React.Component {
             <b>CS:GO TV</b>
             <br />
             All of the biggest Counter Strike tournaments in one place.
+            Unfortunately a lot of the videos I was using for this website were
+            recently removed from youtube. I am currently looking into resolving
+            this issue.
           </p>
           <a href="https://csgotv.netlify.com/">csgotv.com </a>
           <br />
