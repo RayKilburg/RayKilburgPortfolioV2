@@ -46,6 +46,33 @@ class Main extends React.Component {
           {close}
         </article>
         {/*WORK */}
+        {/* Porto Produces */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Porto Produces</h2>
+          <span className="image main">
+            <img id="workImg" src={'https://i.imgur.com/9tlbIzg.png'} alt="" />
+          </span>
+          <p>
+            <b>Porto Produces</b>
+            <br />
+            This is a website to showcase and sell music for the artist and
+            producer Porto. I built this website using WordPress and I have it
+            hosted on bluehost. This WordPress site has ecommerce capabilites
+            and takes advantage of SEO techniques.
+          </p>
+          <a href="https://portoproduces.com/">portoproduces.com </a>
+          <br />
+          {/* <a href="https://github.com/RayKilburg/CSGOTV">Github Repo</a> */}
+
+          {close}
+        </article>
+        <br />
         {/* CSGO:TV */}
         <article
           id="work"
