@@ -28,11 +28,11 @@ const Footer = props => (
                 <span className="label">Instagram</span>
               </a>
             </li> */}
-      <li>
+      {/* <li>
         <a href="https://twitter.com/raykilburg" className="icon fa-twitter">
           <span className="label">Twitter</span>
         </a>
-      </li>
+      </li> */}
     </ul>
   </footer>
 )

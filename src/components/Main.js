@@ -304,14 +304,14 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li> */}
-            <li>
+            {/* <li>
               <a
                 href="https://twitter.com/raykilburg"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
-            </li>
+            </li> */}
           </ul>
           <h4>rkilburg42@gmail.com</h4>
           {close}
