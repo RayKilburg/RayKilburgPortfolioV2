@@ -97,8 +97,32 @@ class Main extends React.Component {
           {close}
         </article>
         <br />
-        {/* FLICKS PICKS */}
+        {/* Uncle Petes */}
         <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Uncle Petes</h2>
+          <span className="image main">
+            <img id="workImg" src={'https://i.imgur.com/0RPSXfC.png'} alt="" />
+          </span>
+          <p>
+            <b>Uncle Petes</b>
+            <br />
+            Deli Sandwich Shop. It is currently beeing hosted on Netlify.
+          </p>
+          <a href="https://unclepetes.netlify.com/">UnclePetes.com </a>
+          <br />
+          {/* <a href="https://github.com/alexjharrison/Project-Two">Github Repo</a> */}
+
+          {close}
+        </article>
+        <br />
+        {/* FLICKS PICKS */}
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -120,7 +144,7 @@ class Main extends React.Component {
 
           {close}
         </article>
-        <br />
+        <br /> */}
         {/* GIPHY APP */}
         <article
           id="work"
