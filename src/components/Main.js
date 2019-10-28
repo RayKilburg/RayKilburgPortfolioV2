@@ -112,7 +112,7 @@ class Main extends React.Component {
           <p>
             <b>Uncle Petes</b>
             <br />
-            Deli Sandwich Shop. It is currently beeing hosted on Netlify.
+            Deli Sandwich Shop. It is currently hosted on Netlify.
           </p>
           <a href="https://unclepetes.netlify.com/">UnclePetes.com </a>
           <br />
