@@ -170,7 +170,7 @@ class Main extends React.Component {
         </article>
         <br />
         {/* RGB GAME */}
-        <article
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -191,7 +191,7 @@ class Main extends React.Component {
 
           {close}
         </article>
-        <br />
+        <br /> */}
         {/* BURGER */}
         <article
           id="work"
@@ -217,7 +217,7 @@ class Main extends React.Component {
         </article>
         <br />
         {/* RK PHOTOGRAPHY */}
-        <article
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -241,7 +241,7 @@ class Main extends React.Component {
           </a>
 
           {close}
-        </article>
+        </article> */}
         {/* SKILLS */}
         <article
           id="about"
