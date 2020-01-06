@@ -98,7 +98,7 @@ class Main extends React.Component {
         </article>
         <br />
         {/* Uncle Petes */}
-        <article
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -116,11 +116,10 @@ class Main extends React.Component {
           </p>
           <a href="https://unclepetes.netlify.com/">UnclePetes.com </a>
           <br />
-          {/* <a href="https://github.com/alexjharrison/Project-Two">Github Repo</a> */}
 
           {close}
         </article>
-        <br />
+        <br /> */}
         {/* FLICKS PICKS */}
         {/* <article
           id="work"
