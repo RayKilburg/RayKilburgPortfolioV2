@@ -66,9 +66,42 @@ class Main extends React.Component {
             hosted on bluehost. This WordPress site has ecommerce capabilites
             and takes advantage of SEO techniques.
           </p>
-          <a href="https://portoproduces.com/">portoproduces.com </a>
+          <a href="https://portoproduces.com/" target="_blank">
+            portoproduces.com{' '}
+          </a>
           <br />
           {/* <a href="https://github.com/RayKilburg/CSGOTV">Github Repo</a> */}
+
+          {close}
+        </article>
+        <br />
+        {/* Contact Keeper */}
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Contact Keeper</h2>
+          <span className="image main">
+            <img src={'https://i.imgur.com/fXD4eiV.jpg'} alt="" />
+          </span>
+          <p>
+            This website allows you to store contacts online! Simply login or
+            create an account to get started. This app was built with React,
+            Node.js, and Express. It is currently deployed on Heroku.
+          </p>
+          <a
+            href="https://ancient-peak-53046.herokuapp.com/login"
+            target="_blank"
+          >
+            Contact Keeper{' '}
+          </a>
+          <br />
+          <a href="https://github.com/RayKilburg/ContactKeeper" target="_blank">
+            Github Repo
+          </a>
 
           {close}
         </article>
@@ -90,7 +123,9 @@ class Main extends React.Component {
             <br />
             All of the biggest Counter Strike tournaments in one place.
           </p>
-          <a href="https://csgotv.netlify.com/">csgotv.com </a>
+          <a href="https://globaloffensivetv.com/" target="_blank">
+            globaloffensivetv.com{' '}
+          </a>
           <br />
           {/* <a href="https://github.com/RayKilburg/CSGOTV">Github Repo</a> */}
 
@@ -161,9 +196,13 @@ class Main extends React.Component {
             find gifs from your favorite TV Shows & Movies. Click on the gifs to
             activate and puase them. Hosted on Github Pages.
           </p>
-          <a href="https://raykilburg.github.io/GiphyAPI/">Giphy App </a>
+          <a href="https://raykilburg.github.io/GiphyAPI/" target="_blank">
+            Giphy App{' '}
+          </a>
           <br />
-          <a href="https://github.com/RayKilburg/GiphyAPI">Github Repo</a>
+          <a href="https://github.com/RayKilburg/GiphyAPI" target="_blank">
+            Github Repo
+          </a>
 
           {close}
         </article>
@@ -192,7 +231,7 @@ class Main extends React.Component {
         </article>
         <br /> */}
         {/* BURGER */}
-        <article
+        {/* <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -214,7 +253,7 @@ class Main extends React.Component {
 
           {close}
         </article>
-        <br />
+        <br /> */}
         {/* RK PHOTOGRAPHY */}
         {/* <article
           id="work"
